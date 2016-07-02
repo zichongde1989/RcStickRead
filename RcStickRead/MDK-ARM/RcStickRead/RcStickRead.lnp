@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"rcstickread\stm32f1xx_hal_pwr.o"
+"rcstickread\stm32f1xx_hal_dma.o"
+"rcstickread\stm32f1xx_hal_gpio.o"
+"rcstickread\stm32f1xx_hal_tim_ex.o"
+"rcstickread\stm32f1xx_hal_rcc.o"
+"rcstickread\stm32f1xx_hal.o"
+"rcstickread\stm32f1xx_hal_flash.o"
+"rcstickread\stm32f1xx_hal_flash_ex.o"
+"rcstickread\stm32f1xx_hal_adc.o"
+"rcstickread\stm32f1xx_hal_cortex.o"
+"rcstickread\stm32f1xx_hal_tim.o"
+"rcstickread\stm32f1xx_hal_adc_ex.o"
+"rcstickread\stm32f1xx_hal_gpio_ex.o"
+"rcstickread\stm32f1xx_hal_uart.o"
+"rcstickread\stm32f1xx_hal_rcc_ex.o"
+"rcstickread\stm32f1xx_hal_spi_ex.o"
+"rcstickread\stm32f1xx_hal_spi.o"
+"rcstickread\system_stm32f1xx.o"
+"rcstickread\stm32f1xx_it.o"
+"rcstickread\stm32f1xx_hal_msp.o"
+"rcstickread\main.o"
+"rcstickread\lcd.o"
+"rcstickread\startup_stm32f103xb.o"
+--library_type=microlib --strict --scatter "RcStickRead\RcStickRead.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "RcStickRead.map" -o RcStickRead\RcStickRead.axf
